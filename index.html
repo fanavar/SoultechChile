@@ -1663,29 +1663,29 @@
 
       <!-- Selector SSD -->
       <div class="precio-grid" id="ssd-grid">
-        <div class="precio-card selected" onclick="selectSSD(this,109990)" data-price="109990">
+        <div class="precio-card selected" onclick="selectSSD(this,119990)" data-price="119990">
           <div class="ssd-size">240<span style="font-size:1rem">GB</span></div>
           <div class="ssd-label">SSD — Opción entrada</div>
-          <div class="ssd-price">$109.990</div>
+          <div class="ssd-price">$119.990</div>
           <div class="ssd-includes">Ideal para uso básico y oficina</div>
         </div>
-        <div class="precio-card" onclick="selectSSD(this,128990)" data-price="128990">
+        <div class="precio-card" onclick="selectSSD(this,138990)" data-price="138990">
           <div class="badge-pop">Más popular</div>
           <div class="ssd-size">480<span style="font-size:1rem">GB</span></div>
           <div class="ssd-label">SSD — Mayor capacidad</div>
-          <div class="ssd-price">$128.990</div>
+          <div class="ssd-price">$138.990</div>
           <div class="ssd-includes">Equilibrio perfecto precio/espacio</div>
         </div>
-        <div class="precio-card" onclick="selectSSD(this,134990)" data-price="134990">
+        <div class="precio-card" onclick="selectSSD(this,144990)" data-price="144990">
           <div class="ssd-size">500<span style="font-size:1rem">GB</span></div>
           <div class="ssd-label">SSD — Alta capacidad</div>
-          <div class="ssd-price">$134.990</div>
+          <div class="ssd-price">$144.990</div>
           <div class="ssd-includes">Para archivos, fotos y trabajo intenso</div>
         </div>
-        <div class="precio-card" onclick="selectSSD(this,179850)" data-price="179850">
+        <div class="precio-card" onclick="selectSSD(this,219990)" data-price="219990">
           <div class="ssd-size">1<span style="font-size:1rem">TB</span></div>
           <div class="ssd-label">SSD — Máxima capacidad</div>
-          <div class="ssd-price">$179.850</div>
+          <div class="ssd-price">$219.990</div>
           <div class="ssd-includes">Espacio sin límites, máximo rendimiento</div>
         </div>
       </div>
@@ -1695,27 +1695,29 @@
         <div class="ram-toggle-title">¿Necesitas más memoria RAM? <span style="font-size:0.8rem;color:rgba(255,255,255,0.4);font-weight:400;">(opcional — pregúntale al técnico si tu equipo lo necesita)</span></div>
         <div class="ram-options">
           <button class="ram-btn none-btn active" onclick="selectRAM(this,0)">Sin RAM adicional</button>
-          <button class="ram-btn" onclick="selectRAM(this,86990)">+ RAM DDR4 — $86.990</button>
-          <button class="ram-btn" onclick="selectRAM(this,66990)">+ RAM DDR3 / DDR3L — $66.990</button>
+          <button class="ram-btn" onclick="selectRAM(this,86990)">+ 8GB DDR4 — $86.990</button>
+          <button class="ram-btn" onclick="selectRAM(this,68990)">+ 4GB DDR4 — $68.990</button>
+          <button class="ram-btn" onclick="selectRAM(this,66990)">+ 8GB DDR3/DDR3L — $66.990</button>
+          <button class="ram-btn" onclick="selectRAM(this,48990)">+ 4GB DDR3/DDR3L — $48.990</button>
         </div>
       </div>
 
       <!-- Resumen de pago -->
       <div class="resumen-box">
-        <div class="resumen-row"><span>SSD seleccionado</span><span id="r-ssd">$109.990</span></div>
+        <div class="resumen-row"><span>SSD seleccionado</span><span id="r-ssd">$119.990</span></div>
         <div class="resumen-row" id="r-ram-row" style="display:none"><span>Memoria RAM</span><span id="r-ram">$0</span></div>
-        <div class="resumen-row total"><span>Total del servicio</span><span class="val" id="r-total">$109.990</span></div>
+        <div class="resumen-row total"><span>Total del servicio</span><span class="val" id="r-total">$119.990</span></div>
         <div class="pago-steps">
           <div class="pago-step">
             <div class="num">60%</div>
             <div class="label">Adelanto al confirmar</div>
-            <div class="amount" id="r-adelanto">$65.994</div>
+            <div class="amount" id="r-adelanto">$71.994</div>
             <div class="desc">Para costear SSD, RAM y materiales. Pagas al dejar el equipo.</div>
           </div>
           <div class="pago-step">
             <div class="num">40%</div>
             <div class="label">Al retirar el equipo</div>
-            <div class="amount" id="r-saldo">$43.996</div>
+            <div class="amount" id="r-saldo">$47.996</div>
             <div class="desc">Una vez listo (1–3 días hábiles). Pagas cuando lo retiras.</div>
           </div>
         </div>
@@ -1744,7 +1746,7 @@
     </div>
 
     <script>
-      var ssdPrice = 109990;
+      var ssdPrice = 119990;
       var ramPrice = 0;
       function fmt(n){return '$'+Math.round(n).toLocaleString('es-CL');}
       function updateResumen(){
@@ -1906,9 +1908,9 @@
           <button class="faq-question">¿Cómo funciona la promoción del diagnóstico? <span
               class="faq-icon">+</span></button>
           <div class="faq-answer">
-            <div class="faq-answer-inner">El diagnóstico tiene un valor de $10.000, el cual te garantiza una revisión
-              profesional y certera. Si luego de recibir el presupuesto decides hacer la reparación con nosotros,
-              <strong>esos $10.000 se descuentan del costo total</strong> de la reparación.
+            <div class="faq-answer-inner">La revisión y diagnóstico técnico tiene un valor de $9.990, e incluye una evaluación
+              profesional y certera de tu equipo. Si luego decides realizar la reparación con nosotros,
+              <strong>esos $9.990 se abonan al costo total</strong> del servicio.
             </div>
           </div>
         </div>
